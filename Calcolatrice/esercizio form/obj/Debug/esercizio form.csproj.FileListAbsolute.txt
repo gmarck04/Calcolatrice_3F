@@ -18,3 +18,13 @@ C:\Users\Famiglia Di Lena\Documents\Scuola\Secondaria di Secondo Grado\III F A.S
 C:\Users\Famiglia Di Lena\Documents\Scuola\Secondaria di Secondo Grado\III F A.S. 2020-2021\Informatica\Windows Forms C#\esercizio form\esercizio form\obj\Debug\esercizio form.csproj.CoreCompileInputs.cache
 C:\Users\Famiglia Di Lena\Documents\Scuola\Secondaria di Secondo Grado\III F A.S. 2020-2021\Informatica\Windows Forms C#\esercizio form\esercizio form\obj\Debug\esercizio form.exe
 C:\Users\Famiglia Di Lena\Documents\Scuola\Secondaria di Secondo Grado\III F A.S. 2020-2021\Informatica\Windows Forms C#\esercizio form\esercizio form\obj\Debug\esercizio form.pdb
+C:\Users\gmarc\OneDrive\Documenti\GitHub\Calcolatrice_3F\Calcolatrice\esercizio form\bin\Debug\esercizio form.exe.config
+C:\Users\gmarc\OneDrive\Documenti\GitHub\Calcolatrice_3F\Calcolatrice\esercizio form\bin\Debug\esercizio form.exe
+C:\Users\gmarc\OneDrive\Documenti\GitHub\Calcolatrice_3F\Calcolatrice\esercizio form\bin\Debug\esercizio form.pdb
+C:\Users\gmarc\OneDrive\Documenti\GitHub\Calcolatrice_3F\Calcolatrice\esercizio form\obj\Debug\esercizio form.csprojAssemblyReference.cache
+C:\Users\gmarc\OneDrive\Documenti\GitHub\Calcolatrice_3F\Calcolatrice\esercizio form\obj\Debug\esercizio_form.Form1.resources
+C:\Users\gmarc\OneDrive\Documenti\GitHub\Calcolatrice_3F\Calcolatrice\esercizio form\obj\Debug\esercizio_form.Properties.Resources.resources
+C:\Users\gmarc\OneDrive\Documenti\GitHub\Calcolatrice_3F\Calcolatrice\esercizio form\obj\Debug\esercizio form.csproj.GenerateResource.cache
+C:\Users\gmarc\OneDrive\Documenti\GitHub\Calcolatrice_3F\Calcolatrice\esercizio form\obj\Debug\esercizio form.csproj.CoreCompileInputs.cache
+C:\Users\gmarc\OneDrive\Documenti\GitHub\Calcolatrice_3F\Calcolatrice\esercizio form\obj\Debug\esercizio form.exe
+C:\Users\gmarc\OneDrive\Documenti\GitHub\Calcolatrice_3F\Calcolatrice\esercizio form\obj\Debug\esercizio form.pdb

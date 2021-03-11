@@ -146,6 +146,13 @@ namespace esercizio_form
             testoTB.CharacterCasing = CharacterCasing.Upper;
             numero1Txt.Cursor = Cursors.Hand;
         }
+
+        private void ControlloFontBtn_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show(risultatoTxt.Font.Bold.ToString());
+
+            risultatoTxt.Font = new Font("Century Gothic", 30, FontStyle.Underline);
+        }
     }
 
 }
