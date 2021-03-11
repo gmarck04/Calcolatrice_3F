@@ -1,0 +1,20 @@
+C:\informatica 3 F christian\esercizio form\esercizio form\bin\Debug\esercizio form.exe.config
+C:\informatica 3 F christian\esercizio form\esercizio form\bin\Debug\esercizio form.exe
+C:\informatica 3 F christian\esercizio form\esercizio form\bin\Debug\esercizio form.pdb
+C:\informatica 3 F christian\esercizio form\esercizio form\obj\Debug\esercizio form.csprojAssemblyReference.cache
+C:\informatica 3 F christian\esercizio form\esercizio form\obj\Debug\esercizio_form.Form1.resources
+C:\informatica 3 F christian\esercizio form\esercizio form\obj\Debug\esercizio_form.Properties.Resources.resources
+C:\informatica 3 F christian\esercizio form\esercizio form\obj\Debug\esercizio form.csproj.GenerateResource.cache
+C:\informatica 3 F christian\esercizio form\esercizio form\obj\Debug\esercizio form.csproj.CoreCompileInputs.cache
+C:\informatica 3 F christian\esercizio form\esercizio form\obj\Debug\esercizio form.exe
+C:\informatica 3 F christian\esercizio form\esercizio form\obj\Debug\esercizio form.pdb
+C:\Users\Famiglia Di Lena\Documents\Scuola\Secondaria di Secondo Grado\III F A.S. 2020-2021\Informatica\Windows Forms C#\esercizio form\esercizio form\bin\Debug\esercizio form.exe.config
+C:\Users\Famiglia Di Lena\Documents\Scuola\Secondaria di Secondo Grado\III F A.S. 2020-2021\Informatica\Windows Forms C#\esercizio form\esercizio form\bin\Debug\esercizio form.exe
+C:\Users\Famiglia Di Lena\Documents\Scuola\Secondaria di Secondo Grado\III F A.S. 2020-2021\Informatica\Windows Forms C#\esercizio form\esercizio form\bin\Debug\esercizio form.pdb
+C:\Users\Famiglia Di Lena\Documents\Scuola\Secondaria di Secondo Grado\III F A.S. 2020-2021\Informatica\Windows Forms C#\esercizio form\esercizio form\obj\Debug\esercizio form.csprojAssemblyReference.cache
+C:\Users\Famiglia Di Lena\Documents\Scuola\Secondaria di Secondo Grado\III F A.S. 2020-2021\Informatica\Windows Forms C#\esercizio form\esercizio form\obj\Debug\esercizio_form.Form1.resources
+C:\Users\Famiglia Di Lena\Documents\Scuola\Secondaria di Secondo Grado\III F A.S. 2020-2021\Informatica\Windows Forms C#\esercizio form\esercizio form\obj\Debug\esercizio_form.Properties.Resources.resources
+C:\Users\Famiglia Di Lena\Documents\Scuola\Secondaria di Secondo Grado\III F A.S. 2020-2021\Informatica\Windows Forms C#\esercizio form\esercizio form\obj\Debug\esercizio form.csproj.GenerateResource.cache
+C:\Users\Famiglia Di Lena\Documents\Scuola\Secondaria di Secondo Grado\III F A.S. 2020-2021\Informatica\Windows Forms C#\esercizio form\esercizio form\obj\Debug\esercizio form.csproj.CoreCompileInputs.cache
+C:\Users\Famiglia Di Lena\Documents\Scuola\Secondaria di Secondo Grado\III F A.S. 2020-2021\Informatica\Windows Forms C#\esercizio form\esercizio form\obj\Debug\esercizio form.exe
+C:\Users\Famiglia Di Lena\Documents\Scuola\Secondaria di Secondo Grado\III F A.S. 2020-2021\Informatica\Windows Forms C#\esercizio form\esercizio form\obj\Debug\esercizio form.pdb
