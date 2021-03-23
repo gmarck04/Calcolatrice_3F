@@ -40,13 +40,17 @@
             this.testoTB = new System.Windows.Forms.TextBox();
             this.maiuscoleBtn = new System.Windows.Forms.Button();
             this.ControlloFontBtn = new System.Windows.Forms.Button();
+            this.ScappoTxt = new System.Windows.Forms.TextBox();
+            this.CodiceFiscaleTxt = new System.Windows.Forms.TextBox();
+            this.PasswordTxt = new System.Windows.Forms.TextBox();
+            this.ScriviTxt = new System.Windows.Forms.TextBox();
             this.risMenuStrip.SuspendLayout();
             this.SuspendLayout();
             // 
             // bottone1btn
             // 
             this.bottone1btn.ForeColor = System.Drawing.Color.Coral;
-            this.bottone1btn.Location = new System.Drawing.Point(148, 167);
+            this.bottone1btn.Location = new System.Drawing.Point(148, 135);
             this.bottone1btn.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.bottone1btn.Name = "bottone1btn";
             this.bottone1btn.Size = new System.Drawing.Size(112, 34);
@@ -59,7 +63,7 @@
             // 
             this.numero1Txt.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.SuggestAppend;
             this.numero1Txt.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.CustomSource;
-            this.numero1Txt.Location = new System.Drawing.Point(13, 171);
+            this.numero1Txt.Location = new System.Drawing.Point(13, 139);
             this.numero1Txt.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.numero1Txt.Name = "numero1Txt";
             this.numero1Txt.Size = new System.Drawing.Size(127, 26);
@@ -68,7 +72,7 @@
             // 
             // numero2Txt
             // 
-            this.numero2Txt.Location = new System.Drawing.Point(268, 171);
+            this.numero2Txt.Location = new System.Drawing.Point(268, 139);
             this.numero2Txt.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.numero2Txt.Name = "numero2Txt";
             this.numero2Txt.Size = new System.Drawing.Size(135, 26);
@@ -80,7 +84,7 @@
             this.risultatoTxt.ContextMenuStrip = this.risMenuStrip;
             this.risultatoTxt.Enabled = false;
             this.risultatoTxt.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.risultatoTxt.Location = new System.Drawing.Point(531, 171);
+            this.risultatoTxt.Location = new System.Drawing.Point(531, 139);
             this.risultatoTxt.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.risultatoTxt.Name = "risultatoTxt";
             this.risultatoTxt.Size = new System.Drawing.Size(112, 26);
@@ -95,6 +99,7 @@
             this.cancellaMemoriaStripMenuItem});
             this.risMenuStrip.Name = "risMenuStrip";
             this.risMenuStrip.Size = new System.Drawing.Size(225, 34);
+            this.risMenuStrip.Opening += new System.ComponentModel.CancelEventHandler(this.risMenuStrip_Opening);
             // 
             // cancellaMemoriaStripMenuItem
             // 
@@ -106,7 +111,7 @@
             // bottone2btn
             // 
             this.bottone2btn.ForeColor = System.Drawing.Color.Coral;
-            this.bottone2btn.Location = new System.Drawing.Point(411, 167);
+            this.bottone2btn.Location = new System.Drawing.Point(411, 135);
             this.bottone2btn.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.bottone2btn.Name = "bottone2btn";
             this.bottone2btn.Size = new System.Drawing.Size(112, 34);
@@ -118,20 +123,20 @@
             // testoTB
             // 
             this.testoTB.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.testoTB.Location = new System.Drawing.Point(13, 52);
+            this.testoTB.Location = new System.Drawing.Point(12, 14);
             this.testoTB.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.testoTB.Multiline = true;
             this.testoTB.Name = "testoTB";
             this.testoTB.Size = new System.Drawing.Size(472, 105);
             this.testoTB.TabIndex = 8;
-            this.testoTB.Text = "Calcolatrice\r\n\r\nSommatrice";
+            this.testoTB.Text = "Calcolatrice\r\nSommatrice\r\nCiao";
             this.testoTB.TextChanged += new System.EventHandler(this.testoTB_TextChanged);
             // 
             // maiuscoleBtn
             // 
             this.maiuscoleBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.maiuscoleBtn.ForeColor = System.Drawing.Color.Coral;
-            this.maiuscoleBtn.Location = new System.Drawing.Point(493, 52);
+            this.maiuscoleBtn.Location = new System.Drawing.Point(493, 45);
             this.maiuscoleBtn.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.maiuscoleBtn.Name = "maiuscoleBtn";
             this.maiuscoleBtn.Size = new System.Drawing.Size(150, 34);
@@ -144,7 +149,7 @@
             // 
             this.ControlloFontBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ControlloFontBtn.ForeColor = System.Drawing.Color.Coral;
-            this.ControlloFontBtn.Location = new System.Drawing.Point(531, 256);
+            this.ControlloFontBtn.Location = new System.Drawing.Point(531, 194);
             this.ControlloFontBtn.Name = "ControlloFontBtn";
             this.ControlloFontBtn.Size = new System.Drawing.Size(112, 74);
             this.ControlloFontBtn.TabIndex = 9;
@@ -152,12 +157,51 @@
             this.ControlloFontBtn.UseVisualStyleBackColor = true;
             this.ControlloFontBtn.Click += new System.EventHandler(this.ControlloFontBtn_Click);
             // 
+            // ScappoTxt
+            // 
+            this.ScappoTxt.Location = new System.Drawing.Point(12, 218);
+            this.ScappoTxt.Name = "ScappoTxt";
+            this.ScappoTxt.Size = new System.Drawing.Size(187, 26);
+            this.ScappoTxt.TabIndex = 11;
+            this.ScappoTxt.Text = "Scrivi qui se ci riesci";
+            this.ScappoTxt.MouseHover += new System.EventHandler(this.ScappoTxt_MouseHover);
+            // 
+            // CodiceFiscaleTxt
+            // 
+            this.CodiceFiscaleTxt.Location = new System.Drawing.Point(13, 256);
+            this.CodiceFiscaleTxt.MaxLength = 16;
+            this.CodiceFiscaleTxt.Name = "CodiceFiscaleTxt";
+            this.CodiceFiscaleTxt.Size = new System.Drawing.Size(187, 26);
+            this.CodiceFiscaleTxt.TabIndex = 12;
+            this.CodiceFiscaleTxt.TextChanged += new System.EventHandler(this.CodiceFiscaleTxt_TextChanged);
+            // 
+            // PasswordTxt
+            // 
+            this.PasswordTxt.Location = new System.Drawing.Point(13, 304);
+            this.PasswordTxt.Name = "PasswordTxt";
+            this.PasswordTxt.PasswordChar = '*';
+            this.PasswordTxt.Size = new System.Drawing.Size(186, 26);
+            this.PasswordTxt.TabIndex = 13;
+            // 
+            // ScriviTxt
+            // 
+            this.ScriviTxt.Location = new System.Drawing.Point(13, 343);
+            this.ScriviTxt.Name = "ScriviTxt";
+            this.ScriviTxt.ReadOnly = true;
+            this.ScriviTxt.Size = new System.Drawing.Size(188, 26);
+            this.ScriviTxt.TabIndex = 14;
+            this.ScriviTxt.Text = "Leggimi e basta";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.SystemColors.Info;
-            this.ClientSize = new System.Drawing.Size(666, 342);
+            this.BackColor = System.Drawing.SystemColors.Window;
+            this.ClientSize = new System.Drawing.Size(666, 381);
+            this.Controls.Add(this.ScriviTxt);
+            this.Controls.Add(this.PasswordTxt);
+            this.Controls.Add(this.CodiceFiscaleTxt);
+            this.Controls.Add(this.ScappoTxt);
             this.Controls.Add(this.ControlloFontBtn);
             this.Controls.Add(this.testoTB);
             this.Controls.Add(this.maiuscoleBtn);
@@ -190,6 +234,10 @@
         private System.Windows.Forms.ContextMenuStrip risMenuStrip;
         private System.Windows.Forms.ToolStripMenuItem cancellaMemoriaStripMenuItem;
         private System.Windows.Forms.Button ControlloFontBtn;
+        private System.Windows.Forms.TextBox ScappoTxt;
+        private System.Windows.Forms.TextBox CodiceFiscaleTxt;
+        private System.Windows.Forms.TextBox PasswordTxt;
+        private System.Windows.Forms.TextBox ScriviTxt;
     }
 }
 

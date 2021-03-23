@@ -1,4 +1,4 @@
-﻿//Autore: Francesco Di Lena
+﻿//Autore: Giovanni Marchetto
 //Classe: 3 F
 
 using System;
@@ -152,7 +152,28 @@ namespace esercizio_form
             MessageBox.Show(risultatoTxt.Font.Bold.ToString());
 
             risultatoTxt.Font = new Font("Century Gothic", 30, FontStyle.Underline);
+
+            MessageBox.Show(testoTB.Lines[1]);
+        }
+
+        private void risMenuStrip_Opening(object sender, CancelEventArgs e)
+        {
+
+        }
+
+        private void ScappoTxt_MouseHover(object sender, EventArgs e)
+        {
+            Random x = new Random();
+            Random y = new Random();
+
+            ScappoTxt.Location = new Point(x.Next(200), y.Next(200));
+
+            MessageBox.Show($"La coodinata di x e': {ScappoTxt.Location.X.ToString()}");            
+        }
+
+        private void CodiceFiscaleTxt_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
-
 }
